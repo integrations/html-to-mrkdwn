@@ -1,0 +1,38 @@
+{
+  "name": "html-to-mrkdwn",
+  "version": "1.0.0",
+  "description": "Convert HTML to Slack flavored mrkdwn",
+  "main": "./lib",
+  "scripts": {
+    "test": "jest && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github-slack/html-to-mrkdown.git"
+  },
+  "keywords": [
+    "html",
+    "markdown",
+    "slack",
+    "mrkdwn"
+  ],
+  "author": "Brandon Keepers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github-slack/html-to-mrkdown/issues"
+  },
+  "homepage": "https://github.com/github-slack/html-to-mrkdown#readme",
+  "dependencies": {
+    "turndown": "^4.0.0-rc.3",
+    "turndown-plugin-gfm": "0.0.2"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
