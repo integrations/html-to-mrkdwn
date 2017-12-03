@@ -7,8 +7,8 @@ const examples = {
   '<del>del</del>': '~del~',
   '<strike>strike</strike>': '~strike~',
   '<s>s</s>': '~s~',
-  '<ol><li>item 1</li><li>item 2</li></ol>': '1.  item 1\n2.  item 2',
-  '<ul><li>item 1</li><li>item 2</li></ul>': '•   item 1\n•   item 2',
+  '<ol><li>item 1</li><li>item 2</li></ol>': '1. item 1\n2. item 2',
+  '<ul><li>item 1</li><li>item 2</li></ul>': '• item 1\n• item 2',
   '<blockquote>blockquote</blockquote>': '> blockquote',
   '<code>code</code>': '`code`',
   '<pre><code>code\nblock</code></pre>': '```\ncode\nblock\n```',
@@ -18,7 +18,9 @@ const examples = {
   '<h3>Heading 3</h3><p>paragraph</p>': '*Heading 3*\n\nparagraph',
   '<h4>Heading 4</h4><p>paragraph</p>': '*Heading 4*\n\nparagraph',
   '<h5>Heading 5</h5><p>paragraph</p>': '*Heading 5*\n\nparagraph',
-  '<h6>Heading 6</h6><p>paragraph</p>': '*Heading 6*\n\nparagraph'
+  '<h6>Heading 6</h6><p>paragraph</p>': '*Heading 6*\n\nparagraph',
+  '<ul class="contains-task-list">\n<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> item 1</li></ul>': '☐ item 1',
+  '<ul class="contains-task-list">\n<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" checked=""> item 2</li></ul>': '☑︎ item 2'
 }
 
 Object.keys(examples).forEach((input) => {
