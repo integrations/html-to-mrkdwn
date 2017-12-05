@@ -20,7 +20,9 @@ const examples = {
   '<h5>Heading 5</h5><p>paragraph</p>': '*Heading 5*\n\nparagraph',
   '<h6>Heading 6</h6><p>paragraph</p>': '*Heading 6*\n\nparagraph',
   '<ul class="contains-task-list">\n<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> item 1</li></ul>': '☐ item 1',
-  '<ul class="contains-task-list">\n<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" checked=""> item 2</li></ul>': '☑︎ item 2'
+  '<ul class="contains-task-list">\n<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" checked=""> item 2</li></ul>': '☑︎ item 2',
+  '<img alt="hello world" src="http://example.com/logo.png">': '<http://example.com/logo.png|hello world>',
+  '<img src="http://example.com/logo.png">': 'http://example.com/logo.png'
 }
 
 Object.keys(examples).forEach((input) => {
