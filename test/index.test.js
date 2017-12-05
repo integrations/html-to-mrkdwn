@@ -22,7 +22,9 @@ const examples = {
   '<ul class="contains-task-list">\n<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> item 1</li></ul>': '☐ item 1',
   '<ul class="contains-task-list">\n<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" checked=""> item 2</li></ul>': '☑︎ item 2',
   '<img alt="hello world" src="http://example.com/logo.png">': '<http://example.com/logo.png|hello world>',
-  '<img src="http://example.com/logo.png">': 'http://example.com/logo.png'
+  '<img src="http://example.com/logo.png">': 'http://example.com/logo.png',
+  '<a href="url"><img src="image" alt="hello"></a>': '<url|hello>',
+  '<a href="url"><img src="image"></a>': '<url|image>'
 }
 
 Object.keys(examples).forEach((input) => {
