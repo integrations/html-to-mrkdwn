@@ -10,3 +10,5 @@ const html = '<strong>Hello</strong> <a href="https://example.com">cruel</a> <em
 mrkdwn(html)
 // *Hello* <https://example.com|cruel> _world_!
 ```
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/github-slack/html-to-mrkdwn.svg)](https://greenkeeper.io/)
