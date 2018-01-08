@@ -24,7 +24,8 @@ const examples = {
   '<img alt="hello world" src="http://example.com/logo.png">': '<http://example.com/logo.png|hello world>',
   '<img src="http://example.com/logo.png">': 'http://example.com/logo.png',
   '<a href="url"><img src="image" alt="hello"></a>': '<url|hello>',
-  '<a href="url"><img src="image"></a>': '<url|image>'
+  '<a href="url"><img src="image"></a>': '<url|image>',
+  '<h2>1. First things first</h2>': '*1. First things first*'
 }
 
 Object.keys(examples).forEach((input) => {
