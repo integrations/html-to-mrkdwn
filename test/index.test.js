@@ -7,6 +7,17 @@ fs.readdirSync('test/fixtures').forEach(file => {
   test(file.replace('.mrkdwn', ''), () => {
     const content = fs.readFileSync(`test/fixtures/${file}`).toString()
     const [input, output] = content.split('====')
-    expect(mrkdwn(input).trim()).toEqual(output.trim())
+    expect(mrkdwn(input).text.trim()).toEqual(output.trim())
   })
+})
+
+test('returns images', () => {
+  const html = `
+    <p><strong>Hello</strong> <a href="https://example.com">cruel</a> <em>world</em>!</p>
+    <p><img src="https:/example.com/first.gif"></p>
+    <p><img src="https:/example.com/secon.gif"></p>
+  `
+
+  const { image } = mrkdwn(html)
+  expect(image).toEqual('https://example.com/first.gif')
 })
