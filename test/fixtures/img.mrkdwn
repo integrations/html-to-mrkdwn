@@ -1,0 +1,6 @@
+<img alt="hello world" src="http://example.com/logo.png">
+<img src="http://example.com/logo.png">
+<a href="url"><img src="image" alt="hello"></a>
+<a href="url"><img src="image"></a>
+====
+<http://example.com/logo.png|hello world> http://example.com/logo.png <url|hello> <url|image>

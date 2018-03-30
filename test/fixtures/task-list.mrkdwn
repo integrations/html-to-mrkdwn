@@ -1,0 +1,7 @@
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> item 1</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" checked=""> item 2</li>
+</ul>
+====
+☐ item 1
+☑︎ item 2
