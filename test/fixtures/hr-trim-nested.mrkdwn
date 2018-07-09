@@ -1,0 +1,8 @@
+<p>
+  Before
+  <hr>
+  After
+</p>
+<p>Really after</p>
+==== {"trimAt": "hr"}
+Before

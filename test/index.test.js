@@ -6,8 +6,9 @@ fs.readdirSync('test/fixtures').forEach(file => {
 
   test(file.replace('.mrkdwn', ''), () => {
     const content = fs.readFileSync(`test/fixtures/${file}`).toString()
-    const [input, output] = content.split('====')
-    expect(mrkdwn(input).text.trim()).toEqual(output.trim())
+    const [input, options, output] = content.split(/^====(.*)$/m)
+    const optionsObject = options ? JSON.parse(options) : undefined
+    expect(mrkdwn(input, optionsObject).text.trim()).toEqual(output.trim())
   })
 })
 

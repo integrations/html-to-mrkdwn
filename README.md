@@ -18,4 +18,22 @@ mrkdwn(html)
 // }
 ```
 
+You can customize the conversion with some options:
+
+```js
+const mrkdwn = require('html-to-mrkdwn')
+
+const html = `
+<p>Hello</p>
+<hr>
+<p>Goodbye</p>
+`
+
+mrkdwn(html, {trimAt: 'hr'})
+// {
+//   text: "Hello",
+// }
+
+```
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/github-slack/html-to-mrkdwn.svg)](https://greenkeeper.io/)
