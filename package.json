@@ -24,7 +24,7 @@
   "homepage": "https://github.com/integrations/html-to-mrkdown#readme",
   "dependencies": {
     "jsdom": "^11.6.2",
-    "turndown": "^4.0.0-rc.3",
+    "turndown": "^5.0.0",
     "turndown-plugin-gfm": "1.0.1"
   },
   "devDependencies": {
