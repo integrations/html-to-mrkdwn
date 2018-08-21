@@ -28,7 +28,7 @@
     "turndown-plugin-gfm": "1.0.1"
   },
   "devDependencies": {
-    "jest": "^22.0.4",
+    "jest": "^23.5.0",
     "standard": "^11.0.0"
   },
   "standard": {
