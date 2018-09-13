@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/integrations/html-to-mrkdown.git"
+    "url": "git+https://github.com/integrations/html-to-mrkdwn.git"
   },
   "keywords": [
     "html",
@@ -19,9 +19,9 @@
   "author": "Brandon Keepers",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/integrations/html-to-mrkdown/issues"
+    "url": "https://github.com/integrations/html-to-mrkdwn/issues"
   },
-  "homepage": "https://github.com/integrations/html-to-mrkdown#readme",
+  "homepage": "https://github.com/integrations/html-to-mrkdwn#readme",
   "dependencies": {
     "jsdom": "^11.6.2",
     "turndown": "^4.0.0-rc.3",
