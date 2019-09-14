@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "jest": "^23.5.0",
-    "standard": "^11.0.0"
+    "standard": "^14.3.0"
   },
   "standard": {
     "env": [
