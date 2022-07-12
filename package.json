@@ -23,13 +23,13 @@
   },
   "homepage": "https://github.com/integrations/html-to-mrkdown#readme",
   "dependencies": {
-    "jsdom": "^11.6.2",
-    "turndown": "^4.0.0-rc.3",
+    "jsdom": "^20.0.0",
+    "turndown": "^7.1.1",
     "turndown-plugin-gfm": "1.0.1"
   },
   "devDependencies": {
-    "jest": "^23.5.0",
-    "standard": "^11.0.0"
+    "jest": "^28.1.2",
+    "standard": "^17.0.0"
   },
   "standard": {
     "env": [
