@@ -1,0 +1,13 @@
+<h1><b>heading 1</b></h1>
+<h2><b>heading 2</b></h2>
+<h3><b>heading 3</b></h3>
+<h4><b>heading 4</b></h4>
+<h5><b>heading 5</b></h5>
+<h6><b>heading 6</b></h6>
+====
+*heading 1*
+*heading 2*
+*heading 3*
+*heading 4*
+*heading 5*
+*heading 6*
